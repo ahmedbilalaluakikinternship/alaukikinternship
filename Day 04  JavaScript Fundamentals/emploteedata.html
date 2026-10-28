@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details Table</title>
+    <link rel="stylesheet" href="employeedata.css">
+</head>
+<body>
+    <center>
+    <h1>Employee Details Table</h1>
+
+    <h2>Add Employee</h2>
+
+    <form id="employeeForm">
+        <input type="text" id="name" placeholder="Enter name" required>
+        <input type="email" id="email" placeholder="Enter email" required>
+        <input type="text" id="position" placeholder="Enter position" required>
+        <button type="submit">Add Employee</button>
+    </form>
+    </center>
+    
+
+    <br>
+
+    <table border="1" id="employeeTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Position</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="employeeList">
+            <tr>
+                <td>Ahmed Bilal</td>
+                <td>ahmedbilal@example.com</td>
+                <td>Python Developer</td>
+                <td>
+                    <button onclick="editEmployee(this)">Edit</button>
+                    <button onclick="deleteEmployee(this)">Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mushef</td>
+                <td>mushef@example.com</td>
+                <td>Java Developer</td>
+                <td>
+                    <button onclick="editEmployee(this)">Edit</button>
+                    <button onclick="deleteEmployee(this)">Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>jatin</td>
+                <td>jatin@example.com</td>
+                <td>JavaScript Developer</td>
+                <td>
+                    <button onclick="editEmployee(this)">Edit</button>
+                    <button onclick="deleteEmployee(this)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="employeedata.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</body>
+</html>

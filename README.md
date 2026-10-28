@@ -116,5 +116,79 @@ Completed — Bootstrap components, dashboard layout, and responsive page design
 
 ---
 
+---
+
 ## Day 04: JavaScript Fundamentals
+
+**Date:** 28 October 2026
+
+### 1. JavaScript Fundamentals
+- Practiced JavaScript variables using `let` and `const`.
+- Learned event handling and DOM manipulation.
+- Used conditional statements and functions.
+- Practiced form validation and error messages.
+
+### 2. Practical Work
+- Added JavaScript validation to the employee registration form.
+- Implemented dynamic employee table functionality.
+- Added options to insert, edit, and delete employee records.
+- Tested form submission and table operations.
+
+### 3. Project Work
+**Project:** Employee & Task Management System
+
+**Objective:** Add interactive functionality to the existing static application.
+
+**Completed:** Registration form validation and dynamic employee table operations.
+
+### 4. Tools Used
+- HTML
+- CSS
+- JavaScript
+- Visual Studio Code
+- Git and GitHub
+
+### Day 04 Status
+Completed — JavaScript form validation and dynamic table operations.
+
+---
+
+## Day 05: Modern JavaScript, Fetch API and Git
+
+**Date:** 28 October 2026
+
+### 1. Modern JavaScript
+- Practiced asynchronous JavaScript using `async/await`.
+- Learned the basics of Promises and API requests.
+- Worked with JSON responses.
+- Practiced error handling using `try/catch`.
+
+### 2. Fetch API
+- Fetched sample user data from a public API.
+- Used the Fetch API to retrieve data from JSONPlaceholder.
+- Displayed API data dynamically in an HTML table.
+- Added a loading message while fetching data.
+- Implemented and tested API error handling.
+
+### 3. Project Work
+**Project:** Employee & Task Management System
+
+**Objective:** Prepare the frontend for future backend integration.
+
+**Completed:** Public API integration, dynamic data display, loading messages, and error handling.
+
+### 4. Tools Used
+- HTML
+- CSS
+- JavaScript
+- Fetch API
+- JSON
+- Visual Studio Code
+- Git and GitHub
+
+### Day 05 Status
+Completed — API data fetching, dynamic rendering, and error handling practice.
+
+**Note:** The project currently uses sample API data. Backend and database integration will be implemented separately.
+
 
