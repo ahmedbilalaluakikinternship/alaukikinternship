@@ -191,4 +191,48 @@ Completed — API data fetching, dynamic rendering, and error handling practice.
 
 **Note:** The project currently uses sample API data. Backend and database integration will be implemented separately.
 
+---
+
+## Day 06: Python Introduction and Setup
+
+**Date:** 28 October 2026
+
+### 1. Python Fundamentals
+- Learned about Python, its features, and applications.
+- Studied Python installation and the Python interpreter.
+- Explored the basics of CPython and Python bytecode.
+- Practiced Python syntax, indentation, and comments.
+- Learned variables and naming conventions.
+- Studied built-in data types and type conversion.
+- Practiced operators, input, and output.
+- Learned about virtual environments and package management using pip.
+
+### 2. Practical Work
+- Wrote basic Python programs.
+- Created a simple employee information program.
+- Practiced variables, data types, operators, and user input.
+- Set up a Python virtual environment.
+- Practiced installing packages using pip.
+
+### 3. Project Work
+**Project:** Employee & Task Management System
+
+**Objective:** Prepare the initial Python backend structure and develop a basic command-line prototype.
+
+**Planned Work:**
+- Create a dedicated Python backend folder.
+- Develop a command-line prototype for employee information.
+- Prepare the initial structure for future backend integration.
+
+### 4. Tools Used
+- Python
+- Python Interpreter
+- Visual Studio Code
+- pip
+- Virtual Environment (`venv`)
+- Git and GitHub
+
+### Day 06 Status
+In Progress — Python fundamentals, environment setup, and initial backend development.
+
 
