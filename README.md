@@ -232,7 +232,88 @@ Completed — API data fetching, dynamic rendering, and error handling practice.
 - Virtual Environment (`venv`)
 - Git and GitHub
 
+---
+
+## Day 06: Python Introduction and Setup
+
+**Date:** 28 October 2026
+
+### 1. Python Fundamentals
+- Learned about Python, its features, and applications.
+- Studied Python installation and the Python interpreter.
+- Explored CPython and the basics of Python bytecode.
+- Practiced Python syntax, indentation, and comments.
+- Learned variables and naming conventions.
+- Studied built-in data types and type conversion.
+- Practiced operators, input, and output.
+- Learned about virtual environments and package management using pip.
+
+### 2. Practical Work
+- Wrote basic Python programs.
+- Created two mini-projects using Python fundamentals.
+- Developed a simple employee information program.
+- Practiced variables, data types, operators, and user input.
+- Set up a Python virtual environment and practiced package installation using pip.
+
+### 3. Project Work
+**Project:** Employee & Task Management System — Console Application
+
+**Objective:** Create the initial Python backend structure and develop a basic command-line prototype.
+
+**Work Included:**
+- Prepared the Python backend folder.
+- Practiced employee information handling through Python.
+- Started building the foundation for future backend integration.
+
+### 4. Tools Used
+- Python
+- Visual Studio Code
+- Python Interpreter
+- pip and Virtual Environment (`venv`)
+- Git and GitHub
+
 ### Day 06 Status
-In Progress — 
+Completed — Python fundamentals, environment setup, and beginner-level mini-project practice.
+
+---
+
+## Day 07: Conditions, Loops and Problem Solving
+
+**Date:** 29 October 2026
+
+### 1. Python Control Flow
+- Learned conditional statements using `if`, `elif`, and `else`.
+- Practiced `for` and `while` loops.
+- Understood `break`, `continue`, and `pass`.
+- Practiced the `range()` function and nested loops.
+- Worked with logical conditions and Boolean expressions.
+- Learned algorithm design and dry-run techniques.
+- Studied common programming errors and debugging basics.
+
+### 2. Practical Work
+- Built a menu-driven employee management program.
+- Practiced beginner-level Python programming problems.
+- Used conditions and loops to control program execution.
+- Improved problem-solving and logical thinking skills.
+
+### 3. Project Work
+**Project:** Employee & Task Management System — Console Application
+
+**Objective:** Implement basic employee and task workflow logic using Python.
+
+**Features:**
+- Menu-driven console interface.
+- Basic employee information management.
+- Task workflow operations.
+- Conditional statements and loops to handle user choices.
+
+### 4. Tools Used
+- Python
+- Visual Studio Code
+- Git and GitHub
+
+### Day 07 Status
+Completed — Python control flow, problem-solving exercises, and console application workflow practice.
+
 
 
