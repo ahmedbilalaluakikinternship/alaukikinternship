@@ -316,4 +316,53 @@ Completed — Python fundamentals, environment setup, and beginner-level mini-pr
 Completed — Python control flow, problem-solving exercises, and console application workflow practice.
 
 
+## Day 08: Python Collections and Data Handling
+
+### Topics Covered
+- Strings and string methods
+- Lists and list methods
+- Tuples, Sets and Dictionaries
+- Nested Collections
+- Mutable and Immutable Objects
+- References, Identity and Equality
+- List, Set and Dictionary Comprehensions
+- Sorting and Custom Sorting
+- Shallow Copy and Deep Copy
+
+### Practical Tasks
+- Stored employee records using Lists and Dictionaries.
+- Stored task records using Python Collections.
+- Implemented Add, Update, Delete and Search operations.
+- Displayed employee and task records.
+- Generated summaries from stored records.
+- Managed task statuses such as Pending, In Progress and Completed.
+
+### Project Work
+**Employee & Task Management System – In-Memory Data Management**
+
+Implemented the initial data management layer using Python Lists and Dictionaries.
+
+**Features:**
+- Add and display employees.
+- Update and delete employee records.
+- Search employees using Employee ID.
+- Add and display tasks.
+- Assign tasks to employees.
+- Update task status.
+- Delete tasks.
+- Generate system summaries.
+- Count pending, in-progress and completed tasks.
+
+### Concepts Practiced
+- Lists and Dictionaries
+- Dictionary Key-Value Pairs
+- `append()` and `remove()`
+- `any()` and `len()`
+- `sum()` function
+- Loops and Conditional Statements
+- Functions and Data Handling
+
+### Status
+Completed
+
 
