@@ -365,4 +365,52 @@ Implemented the initial data management layer using Python Lists and Dictionarie
 ### Status
 Completed
 
+## Day 09: Functions and Functional Programming
 
+### Topics Covered
+- Defining and Calling Functions
+- Parameters and Return Values
+- Positional and Keyword Arguments
+- Default Arguments
+- *args and **kwargs
+- Local, Global and Nonlocal Scope
+- Lambda Functions
+- Recursion
+- Closures and Higher-Order Functions
+- map(), filter(), zip() and sorted()
+- Mutable Default Argument Pitfalls
+
+### Practical Tasks
+- Created reusable employee and task functions.
+- Used functions to add and display employee records.
+- Used functions to add and display task records.
+- Separated business logic from user interaction.
+- Implemented basic filtering and sorting operations.
+- Practiced function calling and code reusability.
+
+### Project Work
+**Employee & Task Management System – Function-Based Application**
+
+Organized the application into reusable Python functions.
+
+**Features:**
+- Add employee records.
+- Display employee records.
+- Add task records.
+- Display task records.
+- Store records using Lists and Dictionaries.
+- Separate employee and task operations into functions.
+- Use functions to reduce code repetition.
+
+### Concepts Practiced
+- def keyword
+- Function Calling
+- Reusable Functions
+- Lists and Dictionaries
+- for Loops
+- append() Method
+- Lambda Functions
+- Sorting and Filtering
+
+### Status
+Completed
