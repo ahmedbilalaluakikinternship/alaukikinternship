@@ -414,3 +414,49 @@ Organized the application into reusable Python functions.
 
 ### Status
 Completed
+
+
+## Day 10 – Object-Oriented Programming (OOP)
+
+### Topics Covered
+- Classes and Objects
+- Constructors (`__init__()`) and `self`
+- Instance, Class and Static Methods
+- Encapsulation and Abstraction
+- Inheritance and Polymorphism
+- Method Overriding and Overloading Concepts
+- Composition and Aggregation
+- Multiple Inheritance and MRO
+- `super()` and Properties
+- Dunder Methods
+- Abstract Base Classes and Protocols
+
+### Practical Exercises
+- Created Employee, Manager, Project and Task classes.
+- Implemented constructors and class methods.
+- Created objects for employees, managers, projects and tasks.
+- Implemented project assignment through the Manager class.
+- Assigned tasks to employees.
+- Added and displayed project tasks.
+- Updated task status using class methods.
+- Implemented relationships between different classes.
+
+### Project Work – Employee & Task Management System (OOP Design)
+- Converted core application entities into OOP-based classes.
+- Created Employee, Manager, Project and Task classes.
+- Organized application data and functionality using objects.
+- Implemented employee and task assignment.
+- Added project management functionality.
+- Implemented task status updates.
+- Displayed employee, project and task details.
+
+### Learning Outcomes
+- Understood the fundamentals of Object-Oriented Programming.
+- Learned how to create classes and objects.
+- Practiced constructors and methods.
+- Understood relationships between different objects.
+- Learned how to organize application code using OOP.
+- Improved code reusability and maintainability.
+
+### Status
+Completed
