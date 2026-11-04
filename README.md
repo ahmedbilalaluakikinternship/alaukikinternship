@@ -460,3 +460,69 @@ Completed
 
 ### Status
 Completed
+
+## Day 11 – Exceptions, Files and Data Processing
+
+### Topics Covered
+- Exception Handling using try, except, else and finally
+- Raising Exceptions
+- Custom Exceptions and Exception Chaining
+- File Handling and Context Managers
+- Reading and Writing Text Files
+- CSV and JSON File Handling
+- pathlib, os and shutil Modules
+- Date and Time Handling
+- Time Zones
+- Regular Expressions (RegEx)
+- Serialization and Pickle Security Considerations
+
+### Practical Exercises
+- Created and managed text files using Python.
+- Practiced reading and writing files using context managers.
+- Created and read CSV files using the csv module.
+- Created and read JSON files using the json module.
+- Managed file paths using pathlib.
+- Used shutil for file copying and backup operations.
+- Practiced employee data import and export.
+- Implemented employee data validation.
+- Created backup and restore functionality.
+- Practiced custom validation exceptions.
+
+### Project Work – Employee & Task Management System
+- Implemented employee data management using Python files.
+- Added employee records in JSON format.
+- Implemented CSV data export and import.
+- Implemented JSON data export and import.
+- Created a separate data folder for employee records.
+- Implemented backup functionality using shutil.
+- Added restore functionality to recover employee data.
+- Organized the application into separate Python modules.
+
+### Project Structure
+```text
+Day 11 Exceptions, Files and Data Processing/
+│
+├── main.py
+├── employees.py
+├── backup.py
+├── validation.py
+│
+├── data/
+│   ├── employees.csv
+│   └── employees.json
+│
+└── backup/
+    └── employees_backup.json
+```
+
+### Learning Outcomes
+- Learned how to handle runtime errors and exceptions.
+- Understood file handling and context managers.
+- Learned to store and retrieve data using CSV and JSON.
+- Practiced working with file paths and directories.
+- Understood date validation and data processing.
+- Learned how to create and restore file backups.
+- Improved code organization using separate Python modules.
+
+### Status
+Completed

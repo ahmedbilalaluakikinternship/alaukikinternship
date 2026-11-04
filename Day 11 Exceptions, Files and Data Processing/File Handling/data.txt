@@ -1,0 +1,6 @@
+hi everyone 
+my name is ahmed bilal 
+and im learning FILE\IO
+in ALAUKIK ITECG SOLUTIOS 
+i like python and i also use python for file handling
+
