@@ -526,3 +526,124 @@ Day 11 Exceptions, Files and Data Processing/
 
 ### Status
 Completed
+## Day 12 — Modules, Packages and Professional Python
+
+### Project: Employee & Task Management System
+
+**Objective:**  
+To convert the Employee & Task Management System into a clean, modular, and maintainable Python application using modules, packages, configuration, logging, and command-line arguments.
+
+### Key Features Implemented
+
+- Employee registration and employee details display.
+- Task creation and employee assignment.
+- Display all tasks with employee details.
+- Update task status:
+  - Pending
+  - In Progress
+  - Completed
+- Store employee and task records in JSON files.
+- Generate unique IDs using UUID.
+- Validate employee details using custom exceptions.
+- Create and restore data backups.
+- Maintain application logs using Python logging.
+- Manage application settings through a separate configuration file.
+- Support command-line operations using argparse.
+
+### Project Structure
+
+```text
+DAY 12 — Modules, Packages and Professional Python/
+│
+├── main.py
+├── config.py
+├── pyproject.toml
+├── requirements.txt
+│
+├── employees/
+│   ├── __init__.py
+│   ├── employee.py
+│   └── validation.py
+│
+├── tasks/
+│   ├── __init__.py
+│   └── task.py
+│
+├── utils/
+│   ├── __init__.py
+│   ├── backup.py
+│   └── logger.py
+│
+├── data/
+│   ├── employees.json
+│   └── tasks.json
+│
+├── logs/
+│   └── app.log
+│
+└── backup/
+```
+
+### Technologies & Concepts Used
+
+- Python
+- Python Standard Library
+- Modules and Packages
+- JSON File Handling
+- UUID and Enum
+- Exception Handling
+- Logging
+- Argparse (CLI)
+- Pathlib
+- Shutil
+- Pyproject.toml
+- UV (Python Project Management)
+
+### How to Run the Project
+
+**1. Open the project folder in VS Code Terminal.**
+
+**2. Run the application:**
+
+```bash
+uv run python main.py
+```
+
+**3. Check application version:**
+
+```bash
+uv run python main.py --version
+```
+
+**4. Add an employee using CLI:**
+
+```bash
+uv run python main.py --action add-employee --name "Ahmed" --age 21 --department "Python Development"
+```
+
+**5. Display employees using CLI:**
+
+```bash
+uv run python main.py --action show-employees
+```
+
+### Learning Outcomes
+
+- Learned how to organize Python code into separate modules and packages.
+- Understood the use of `__init__.py` and `if __name__ == "__main__"`.
+- Practiced importing and reusing functions across multiple files.
+- Learned to use Python Standard Library modules.
+- Implemented structured logging for application activities.
+- Created command-line operations using argparse.
+- Used UUID for generating unique employee and task IDs.
+- Used Enum for managing predefined task statuses.
+- Learned professional project configuration using pyproject.toml.
+- Improved code readability, reusability, and maintainability.
+
+### Project Status
+
+**Status:** Completed
+
+**Day 12 successfully completed.** Built a modular Employee & Task Management System with separate packages, JSON-based data storage, logging, backup and restore functionality, and command-line support.
+
+---

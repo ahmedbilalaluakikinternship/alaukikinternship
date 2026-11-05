@@ -1,0 +1,15 @@
+2026-11-05 11:44:54,862 - ERROR - Application error: Expecting value: line 1 column 1 (char 0)
+2026-11-05 11:47:05,020 - ERROR - Application error: Expecting value: line 1 column 1 (char 0)
+2026-11-05 11:47:26,617 - ERROR - Application error: Expecting value: line 1 column 1 (char 0)
+2026-11-05 11:49:03,168 - INFO - Employee added: bilal
+2026-11-05 11:49:39,726 - INFO - Task added: esms
+2026-11-05 11:50:21,874 - INFO - Data backup created.
+2026-11-05 12:06:25,458 - INFO - Employee added: ahmed
+2026-11-05 12:08:16,892 - INFO - Task added: ui 
+2026-11-05 12:12:22,806 - INFO - Task status updated: e7da67ac-1d76-4283-81ba-fe7ff06010ac
+2026-11-05 12:12:57,489 - INFO - Data backup created.
+2026-11-05 12:13:03,944 - INFO - Data restored from backup.
+2026-11-05 12:16:24,633 - INFO - Employee added: mateen
+2026-11-05 12:17:02,454 - INFO - Task added: backend 
+2026-11-05 12:18:03,942 - INFO - Data backup created.
+2026-11-05 12:18:09,608 - INFO - Data restored from backup.

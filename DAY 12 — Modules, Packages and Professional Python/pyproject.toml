@@ -1,0 +1,9 @@
+[project]
+name = "employee-task-management"
+version = "1.0.0"
+description = "Employee and Task Management System"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.black]
+line-length = 88
