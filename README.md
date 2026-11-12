@@ -647,3 +647,138 @@ uv run python main.py --action show-employees
 **Day 12 successfully completed.** Built a modular Employee & Task Management System with separate packages, JSON-based data storage, logging, backup and restore functionality, and command-line support.
 
 ---
+## Day 13 — Advanced Python Concepts
+
+### Project: Advanced Employee & Task Processing System
+
+**Objective:**  
+To improve Python programming skills by implementing advanced concepts such as generators, decorators, dataclasses, type hints, custom context managers, and pattern matching in an Employee & Task Management System.
+
+### Theory Topics Covered
+
+- Iterables, Iterators and Generators
+- `yield` and Generator Expressions
+- Decorators and `functools.wraps`
+- Custom Context Managers
+- Type Hints and Union Types
+- Generics and Protocol
+- Dataclasses and Namedtuple
+- Pattern Matching (`match-case`)
+- Descriptors and Attribute Access
+- Namespaces and LEGB Scope
+- Garbage Collection and References
+- Metaclasses – Introductory Concepts
+- contextvars – Introductory Concepts
+
+### Practical Exercises Completed
+
+**1. Generator for Task Processing**
+- Created a generator function using `yield`.
+- Processed tasks one by one.
+- Used `Iterator` type hints.
+
+**2. Logging Decorator**
+- Implemented a custom decorator.
+- Used `functools.wraps`.
+- Logged function execution and completion time.
+
+**3. Dataclasses and Type Hints**
+- Created Employee and Task dataclasses.
+- Used type annotations for better code readability.
+- Generated unique IDs using UUID.
+
+**4. Custom Context Manager**
+- Implemented `__enter__()` and `__exit__()`.
+- Managed task processing lifecycle.
+- Handled exception information inside the context manager.
+
+### Project Features Implemented
+
+- Add new employees.
+- Display employee details.
+- Create tasks and assign them to employees.
+- Display all task details.
+- Update task status.
+- Process tasks using generators.
+- Log function execution using decorators.
+- Manage task processing using a custom context manager.
+- Use dataclasses for structured employee and task records.
+- Generate unique Employee and Task IDs using UUID.
+- Handle task statuses using pattern matching.
+
+### Project Structure
+
+```text
+Day 13 Advance Pythonn And Software Quality/
+│
+├── main.py
+├── models.py
+├── decorators.py
+├── generators.py
+├── context_manager.py
+└── README.md
+```
+
+### Technologies and Concepts Used
+
+- Python
+- Dataclasses
+- Type Hints
+- Generators and Iterators
+- Decorators
+- functools
+- Context Managers
+- Pattern Matching
+- UUID
+- typing
+- Object-Oriented Programming
+
+### How to Run the Project
+
+**1. Open the Day 13 project folder in VS Code Terminal.**
+
+**2. Run the application:**
+
+```bash
+uv run python main.py
+```
+
+**3. Select the required operation from the menu:**
+
+```text
+1. Add Employee
+2. Show Employees
+3. Add Task
+4. Show Tasks
+5. Update Task Status
+6. Process All Tasks
+7. Exit
+```
+
+### Testing Performed
+
+- Tested employee creation and display.
+- Tested task creation and employee assignment.
+- Tested task status updates.
+- Tested generator-based task processing.
+- Verified decorator execution logs.
+- Verified custom context manager start and end operations.
+- Tested invalid employee IDs and task statuses.
+
+### Learning Outcomes
+
+- Developed a deeper understanding of advanced Python concepts.
+- Learned lazy evaluation using generators.
+- Improved code reusability through decorators.
+- Practiced structured programming using dataclasses and type hints.
+- Understood custom context managers and resource management.
+- Learned how to use Protocol, Generics and Pattern Matching.
+- Improved application readability, maintainability and organization.
+
+### Project Status
+
+**Status:** Completed
+
+**Day 13 successfully completed.** Implemented advanced Python concepts in an Employee & Task Processing System with generators, decorators, dataclasses, type hints, custom context managers and pattern matching.
+
+---
