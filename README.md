@@ -781,4 +781,186 @@ uv run python main.py
 
 **Day 13 successfully completed.** Implemented advanced Python concepts in an Employee & Task Processing System with generators, decorators, dataclasses, type hints, custom context managers and pattern matching.
 
+## Day 14 — Data Structures, Algorithms and Complexity
+
+### Project: Optimized Employee & Task Management System
+
+**Objective:**  
+To understand data structures, algorithms, time complexity, and performance optimization by implementing efficient searching, sorting, and filtering operations in an Employee & Task Management System.
+
+### Theory Topics Covered
+
+- Big-O Notation and Complexity Analysis
+- Arrays, Stacks, Queues and Hash Tables
+- Linked Lists and Tree Fundamentals
+- Graph Fundamentals
+- Linear Search and Binary Search
+- Common Sorting Algorithms
+- Recursion and Problem Decomposition
+- Basic Dynamic Programming Concepts
+- Profiling and Benchmarking
+
+### Practical Exercises Completed
+
+**1. Coding Problems**
+
+- Find the largest and smallest number in a list.
+- Reverse a list.
+- Count even and odd numbers.
+- Remove duplicate elements.
+- Implement Linear Search.
+- Implement Binary Search.
+- Implement Bubble Sort.
+- Implement Selection Sort.
+- Implement Insertion Sort.
+- Check whether a string is a palindrome.
+- Calculate factorial using recursion.
+- Generate Fibonacci numbers using Dynamic Programming.
+- Find duplicate elements in a list.
+- Sort employee records by age.
+- Practice searching and sorting techniques.
+
+**2. Searching Algorithms**
+
+- Implemented Linear Search.
+- Implemented Binary Search.
+- Compared searching techniques.
+- Understood the importance of sorted data for Binary Search.
+
+**3. Sorting Algorithms**
+
+- Implemented Bubble Sort.
+- Implemented Selection Sort.
+- Implemented Insertion Sort.
+- Implemented Merge Sort.
+- Compared custom sorting algorithms with Python's built-in sorting.
+
+**4. Performance Analysis**
+
+- Used Python's `timeit` module.
+- Compared Linear Search and Binary Search.
+- Compared Bubble Sort and Python's built-in sorting.
+- Studied time and space complexity.
+- Understood performance optimization techniques.
+
+### Project Features Implemented
+
+- Add new employees.
+- Display all employee records.
+- Search employees by ID.
+- Search employees by name.
+- Filter employees by department.
+- Sort employees by name.
+- Sort employees by age.
+- Add tasks and assign them to employees.
+- Display all tasks.
+- Search tasks by ID.
+- Search tasks by title.
+- Filter tasks by status.
+- Update task status.
+- Optimize employee and task ID searching using dictionary-based indexing.
+- Compare algorithm performance using benchmarking.
+
+### Project Structure
+
+```text
+DAY 14 — Data Structures, Algorithms and Complexity/
+│
+├── main.py
+├── employee_manager.py
+├── task_manager.py
+├── algorithms.py
+├── performance.py
+└── README.md
+```
+
+### Technologies and Concepts Used
+
+- Python
+- Data Structures
+- Lists and Dictionaries
+- Sets and Tuples
+- Stack and Queue
+- Linked Lists
+- Trees and Graphs
+- Searching Algorithms
+- Sorting Algorithms
+- Recursion
+- Dynamic Programming
+- Big-O Notation
+- Time and Space Complexity
+- `timeit`
+- `cProfile`
+- Lambda Functions
+
+### How to Run the Project
+
+**1. Open the Day 14 project folder in VS Code Terminal.**
+
+**2. Run the application:**
+
+```bash
+uv run python main.py
+```
+
+**3. Run the performance comparison:**
+
+```bash
+uv run python performance.py
+```
+
+### Application Menu
+
+```text
+===== OPTIMIZED EMPLOYEE & TASK SYSTEM =====
+
+1. Add Employee
+2. Show Employees
+3. Search Employee by ID
+4. Search Employee by Name
+5. Filter Employees by Department
+6. Sort Employees by Name
+7. Sort Employees by Age
+8. Add Task
+9. Show Tasks
+10. Search Task by ID
+11. Search Task by Title
+12. Filter Tasks by Status
+13. Update Task Status
+14. Exit
+```
+
+### Time Complexity Analysis
+
+| Operation | Time Complexity |
+|---|---|
+| Employee ID Search using Dictionary | Average O(1) |
+| Employee Name Search | O(n) |
+| Department Filtering | O(n) |
+| Employee Sorting | O(n log n) |
+| Task ID Search using Dictionary | Average O(1) |
+| Task Status Filtering | O(n) |
+| Linear Search | O(n) |
+| Binary Search | O(log n) |
+| Bubble Sort | O(n²) |
+| Merge Sort | O(n log n) |
+
+### Learning Outcomes
+
+- Developed an understanding of common data structures and algorithms.
+- Learned how to analyze time and space complexity using Big-O notation.
+- Implemented searching and sorting algorithms from scratch.
+- Practiced recursion and dynamic programming.
+- Learned how stacks, queues, linked lists, trees, and graphs work.
+- Improved searching performance using dictionary-based indexing.
+- Implemented employee and task filtering and sorting operations.
+- Used benchmarking to compare alternative implementations.
+- Improved problem-solving and algorithmic thinking skills.
+
+### Project Status
+
+**Status:** Completed
+
+**Day 14 successfully completed.** Developed an optimized Employee & Task Management System with efficient searching, sorting, filtering, dictionary-based indexing, and performance benchmarking.
+
 ---
