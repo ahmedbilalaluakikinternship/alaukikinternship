@@ -963,4 +963,250 @@ uv run python performance.py
 
 **Day 14 successfully completed.** Developed an optimized Employee & Task Management System with efficient searching, sorting, filtering, dictionary-based indexing, and performance benchmarking.
 
----
+# Day 15 – Testing, Debugging and Code Quality
+
+**Python Internship Training | Alaukik ITech Solution**
+
+## Overview
+
+Day 15 focused on understanding software testing, debugging and code quality using Python. We learned how to write and execute automated unit tests using **Pytest** and Python's built-in **Unittest** framework.
+
+## Learning Objectives
+
+- Understand Unit Testing.
+- Learn Pytest and Unittest.
+- Write and execute test cases.
+- Understand assertions and exception testing.
+- Identify and fix import errors.
+- Understand test discovery and test execution.
+
+## Project Structure
+
+```text
+DAY 15 - Testing and Code Quality/
+│
+├── employee_task_manager/
+│   ├── __init__.py
+│   ├── employee.py
+│   └── task.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_employee.py
+│   ├── test_tasks.py
+│   └── test_task_unittest.py
+│
+├── README.md
+├── pyproject.toml
+└── uv.lock
+```
+
+## 1. Project Setup
+
+Initialized the Python project using UV.
+
+```bash
+uv init
+```
+
+Installed Pytest as a development dependency:
+
+```bash
+uv add --dev pytest
+```
+
+Verified the installation:
+
+```bash
+uv run pytest --version
+```
+
+## 2. Pytest – Unit Testing
+
+Learned how to write automated test cases using Pytest.
+
+### Concepts Covered
+
+- Importing Pytest.
+- Writing test functions.
+- Using `assert` statements.
+- Testing valid and invalid inputs.
+- Testing expected exceptions using `pytest.raises()`.
+- Running individual test files.
+- Understanding test discovery.
+
+### Commands
+
+Run all tests:
+
+```bash
+uv run pytest -v
+```
+
+Run a specific test file:
+
+```bash
+uv run pytest tests/test_tasks.py -v
+```
+
+### TaskManager Test Cases
+
+Implemented and executed six test cases:
+
+| Test Case | Purpose |
+|---|---|
+| `test_add_task` | Verify task creation |
+| `test_get_task` | Verify task retrieval |
+| `test_update_status` | Verify task status update |
+| `test_empty_task_title` | Validate empty task title |
+| `test_empty_employee_name` | Validate employee name |
+| `test_invalid_status` | Validate invalid task status |
+
+**Result:** All six TaskManager test cases passed successfully.
+
+## 3. TaskManager Implementation
+
+Created `task.py` inside the `employee_task_manager` package.
+
+Implemented the following methods:
+
+- `__init__()` – Initialize task storage and task ID.
+- `add_task()` – Create a new task.
+- `get_task()` – Retrieve a task using its ID.
+- `update_status()` – Update task status.
+
+Supported task statuses:
+
+- Pending
+- In Progress
+- Completed
+
+Implemented input validation using `ValueError`.
+
+## 4. Python Unittest Framework
+
+Learned how to use Python's built-in `unittest` library.
+
+Created:
+
+```text
+tests/test_task_unittest.py
+```
+
+### Concepts Covered
+
+- Importing `unittest`.
+- Creating test classes using `unittest.TestCase`.
+- Using `setUp()` to initialize test objects.
+- Using `assertEqual()` to compare expected and actual results.
+- Using `assertRaises()` to test exceptions.
+- Executing tests through the unittest module.
+
+### Unittest Test Cases
+
+Implemented four test methods:
+
+1. `test_add_task`
+2. `test_get_task`
+3. `test_update_status`
+4. `test_empty_task_title`
+
+### Execution Command
+
+```bash
+uv run python -m unittest tests.test_task_unittest -v
+```
+
+**Result:** All four unittest test cases executed successfully.
+
+## 5. Pytest vs Unittest
+
+| Pytest | Unittest |
+|---|---|
+| External testing framework | Python built-in library |
+| Uses `assert` | Uses methods like `assertEqual()` |
+| Supports simple test functions | Commonly uses test classes |
+| Install separately | No separate installation required |
+| `uv run pytest -v` | `uv run python -m unittest` |
+
+## 6. Important Testing Concepts
+
+| Concept | Description |
+|---|---|
+| Unit Testing | Testing individual functions or methods |
+| Pytest | Python testing framework |
+| Unittest | Built-in Python testing library |
+| Assertion | Checking expected and actual results |
+| Test Discovery | Automatically finding test files and functions |
+| `setUp()` | Runs before each unittest test method |
+| `pytest.raises()` | Checks whether an expected exception occurs |
+| `assertRaises()` | Unittest method for exception testing |
+| Verbose Mode | Displays detailed test execution results |
+
+## 7. Problems Faced and Solutions
+
+### Issue 1: Pytest Dependency Installation
+
+**Problem:** Missing README.md file referenced in project configuration.
+
+**Solution:** Created README.md in the project root and retried the installation.
+
+### Issue 2: Module Import Error
+
+**Problem:** Incorrect module name in the import statement.
+
+**Incorrect:**
+
+```python
+from employee_task_manager.employees import EmployeeManager
+```
+
+**Correct:**
+
+```python
+from employee_task_manager.employee import EmployeeManager
+```
+
+**Learning:** Python import paths must match the actual package and module names.
+
+### Issue 3: Test File Not Found
+
+**Problem:** Used `test_task.py` while the actual file was named `test_tasks.py`.
+
+**Solution:** Used the correct filename in the Pytest command.
+
+## 8. Day 15 Practical Progress
+
+- [x] Initialized Python project using UV.
+- [x] Created README.md.
+- [x] Installed Pytest.
+- [x] Understood Pytest commands.
+- [x] Fixed Python module import error.
+- [x] Implemented TaskManager functionality.
+- [x] Created six Pytest test cases.
+- [x] Successfully executed six TaskManager tests.
+- [x] Created Unittest test class.
+- [x] Practiced `setUp()`, `assertEqual()` and `assertRaises()`.
+- [x] Successfully executed four Unittest test cases.
+
+## 9. Topics for Further Practice
+
+The following Day 15 topics remain for further practical implementation:
+
+- Test discovery and fixtures.
+- Parameterized testing.
+- Mocking and patching.
+- Integration testing.
+- Test coverage using pytest-cov.
+- Property-based testing using Hypothesis.
+- Debugging and breakpoints.
+- PEP 8 and code formatting.
+- Linting using Ruff.
+- Static type checking using Mypy.
+- Documentation and packaging.
+
+## 10. Key Learning Outcome
+
+Today, I learned how to test Python application functionality using Pytest and Unittest. I practiced writing test cases, validating application behaviour, checking exceptions, identifying import errors and executing automated tests.
+
+**Day 15 – Practical Testing Completed (topics covered so far).**
