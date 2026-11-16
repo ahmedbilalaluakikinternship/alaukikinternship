@@ -1210,3 +1210,55 @@ The following Day 15 topics remain for further practical implementation:
 Today, I learned how to test Python application functionality using Pytest and Unittest. I practiced writing test cases, validating application behaviour, checking exceptions, identifying import errors and executing automated tests.
 
 **Day 15 – Practical Testing Completed (topics covered so far).**
+# Day 16 – MySQL Fundamentals
+
+## Project: Employee & Task Management Database
+
+### Objective
+To design an initial relational database schema for an Employee & Task Management System using MySQL.
+
+### Database Name
+`employee_task_management_db`
+
+### Tables Created
+
+1. **Employees**
+   - Stores employee information.
+   - Primary Key: `employee_id`
+
+2. **Projects**
+   - Stores project details, dates, budget and status.
+   - Primary Key: `project_id`
+
+3. **Tasks**
+   - Stores task details, assigned employee and associated project.
+   - Primary Key: `task_id`
+   - Foreign Keys: `employee_id`, `project_id`
+
+### Database Concepts Implemented
+- Relational database structure
+- Primary Keys and Foreign Keys
+- AUTO_INCREMENT
+- NOT NULL and UNIQUE constraints
+- DEFAULT and CHECK constraints
+- SQL data types
+- One-to-Many relationships
+
+### Project Folder Structure
+
+```text
+DAY 16 - MySQL Fundamentals/
+├── database/
+│   ├── schema.sql
+│   ├── sample_data.sql
+│   └── crud_operations.sql
+└── README.md
+```
+
+### Tools Used
+- MySQL Community Server
+- MySQL Workbench
+- Visual Studio Code
+
+### Outcome
+Successfully designed the initial relational database schema for an Employee & Task Management System with three related tables and appropriate constraints.
