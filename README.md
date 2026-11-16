@@ -1262,3 +1262,88 @@ DAY 16 - MySQL Fundamentals/
 
 ### Outcome
 Successfully designed the initial relational database schema for an Employee & Task Management System with three related tables and appropriate constraints.
+
+
+# Day 17 - Advanced SQL and Database Design
+
+## Project Name
+Employee & Task Management System
+
+## Objective
+To design and finalize a normalized relational database
+using MySQL and perform advanced SQL operations.
+
+## Database Name
+employee_task_management
+
+## Database Tables
+
+1. employees
+   - Stores employee information.
+
+2. projects
+   - Stores project details.
+
+3. tasks
+   - Stores tasks assigned to employees and projects.
+
+4. project_members
+   - Manages employee-project assignments.
+
+## Database Relationships
+
+- One Employee can have Multiple Tasks.
+- One Project can have Multiple Tasks.
+- Employees and Projects have a Many-to-Many relationship.
+- project_members is the junction table.
+
+## Practical Work Completed
+
+- Normalized database design.
+- Primary Keys and Foreign Keys.
+- One-to-Many relationships.
+- Many-to-Many relationships.
+- INNER JOIN, LEFT JOIN and RIGHT JOIN.
+- Employee Workload Report.
+- Project Summary Report.
+- GROUP BY and HAVING.
+- Subqueries and CTE.
+- Views and Indexes.
+- Query analysis using EXPLAIN.
+- SQL Transactions.
+
+## Tools Used
+
+- MySQL Server
+- MySQL Workbench
+- Visual Studio Code
+- Git and GitHub
+
+## Project Structure
+
+```text
+DAY 17 - Advanced SQL and Database Design/
+│
+├── database/
+│   ├── final_schema.sql
+│   ├── relationships.sql
+│   ├── joins.sql
+│   ├── reports.sql
+│   ├── subqueries_cte.sql
+│   ├── transactions.sql
+│   └── views_indexes.sql
+│
+├── diagrams/
+│   └── er_diagram.png
+│
+└── README.md
+```
+
+## Learning Outcome
+
+Successfully designed a relational database,
+created relationships, generated reports,
+analyzed queries and implemented useful indexes.
+
+## Status
+Day 17 Completed.
