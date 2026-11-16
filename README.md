@@ -1347,3 +1347,29 @@ analyzed queries and implemented useful indexes.
 
 ## Status
 Day 17 Completed.
+# Day 18 – Python and MySQL Integration
+
+## Objective
+Connect the Employee & Task Management System with MySQL using Python.
+
+## Topics Covered
+- Python and MySQL Connection
+- MySQL Connector
+- CRUD Operations
+- SQL Queries using Python
+- Database Transactions
+- Commit and Rollback
+
+## Tasks Completed
+- Connected Python application with MySQL.
+- Implemented Employee CRUD operations.
+- Implemented Task CRUD operations.
+- Integrated database operations into `main.py`.
+- Tested database connection and data operations.
+- Practiced transaction rollback.
+
+## Technologies Used
+Python, MySQL, MySQL Connector, UV, VS Code.
+
+## Status
+**Completed** 

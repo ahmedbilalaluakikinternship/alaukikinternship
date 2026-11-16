@@ -1,0 +1,19 @@
+[project]
+name = "day-18-python-and-mysql-integration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ahmed Bilal", email = "nagorib588@gmaail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "mysql-connector-python>=26.10.0",
+]
+
+[project.scripts]
+day-18-python-and-mysql-integration = "day_18_python_and_mysql_integration:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
