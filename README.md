@@ -1373,3 +1373,48 @@ Python, MySQL, MySQL Connector, UV, VS Code.
 
 ## Status
 **Completed** 
+# Day 19 – Git Workflow and Database Migrations
+
+## Objective
+Practice Git workflow, secure repository management, and database backup and restore procedures.
+
+## Topics Covered
+- Git Branches and Merging
+- Merge Conflict Resolution
+- .gitignore and Repository Hygiene
+- Environment Variables and Secret Management
+- Database Setup and Configuration
+- Database Backup and Restore
+
+## Tasks Completed
+- Created feature branches and merged changes.
+- Created and resolved a simulated merge conflict.
+- Protected sensitive information using `.gitignore`.
+- Created `.env` and `.env.example` files.
+- Documented database setup procedures.
+- Created a MySQL database backup.
+- Tested database restoration successfully.
+- Organized the repository for collaborative development.
+
+## Technologies Used
+Python, Git, GitHub, MySQL, MySQL Workbench, PowerShell, VS Code.
+
+## Project Structure
+
+```text
+Day 19 Git Workflow and Database Migrations/
+│
+├── git_workflow_demo.py
+├── .gitignore
+├── .env.example
+├── .env
+├── README.md
+├── DATABASE_SETUP_AND_BACKUP.md
+│
+├── migrations/
+│
+└── backups/
+```
+
+## Status
+**Completed** 
