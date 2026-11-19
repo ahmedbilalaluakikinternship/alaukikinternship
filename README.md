@@ -1481,3 +1481,26 @@ Python, Django, HTML5, CSS3, Bootstrap, VS Code.
 
 ## Status
 **Completed** ✅  
+### Day 22: Django Models and ORM
+
+**Topics Covered:**
+- Django Models and Fields
+- Model Relationships
+- ForeignKey, OneToOneField and ManyToManyField
+- Database Migrations and Schema Changes
+- Django ORM Queries
+- Model Validation and Constraints
+- Model Methods and Meta Options
+- Django Admin Configuration
+
+**Practical Tasks:**
+- Created User Profile models.
+- Created Employee, Project, Membership and Task models.
+- Applied database migrations.
+- Registered models in Django Admin.
+- Tested model relationships and validations.
+
+**Project Work:**
+Implemented the main database models and established relationships between different project entities using Django ORM.
+
+**Completed** 
