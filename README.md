@@ -1503,4 +1503,29 @@ Python, Django, HTML5, CSS3, Bootstrap, VS Code.
 **Project Work:**
 Implemented the main database models and established relationships between different project entities using Django ORM.
 
-**Completed** 
+**Completed**
+
+### Day 23: Forms, ModelForms and CRUD
+
+**Topics Covered:**
+- HTML Forms and Django Forms
+- ModelForms
+- GET and POST Requests
+- Server-Side Validation
+- CSRF Protection
+- Success and Error Messages
+- Create, Read, Update and Delete (CRUD) Operations
+- Introduction to Class-Based Views
+
+**Practical Tasks:**
+- Implemented Employee CRUD operations.
+- Implemented Project CRUD operations.
+- Added Task Creation and Editing functionality.
+- Implemented server-side input validation.
+- Displayed useful success and error messages.
+- Implemented CSRF protection for form submissions.
+
+**Project Work:**
+Complete the primary application workflows using Django Forms, ModelForms, validation, and CRUD functionality.
+
+**Status:** In Progress 
