@@ -1529,3 +1529,28 @@ Implemented the main database models and established relationships between diffe
 Complete the primary application workflows using Django Forms, ModelForms, validation, and CRUD functionality.
 
 **Status:** In Progress 
+
+### Day 24: Authentication and Authorization
+
+**Topics Covered:**
+- Django User Model
+- Password Hashing
+- User Registration, Login and Logout
+- Sessions and Cookies
+- Password Reset Workflow
+- Groups and Permissions
+- Role-Based Access Control (RBAC)
+- Admin, Manager and Employee Roles
+- Authentication vs Authorization
+
+**Practical Tasks:**
+- Implemented User Login and Logout functionality.
+- Restricted application pages based on user roles.
+- Prevented unauthorized access to tasks and projects.
+- Configured user groups and permissions.
+- Tested permission boundaries for different user roles.
+
+**Project Work:**
+Implemented secure user access and role management using Django Authentication, Authorization, Groups, and Permissions.
+
+**Status:** Completed
