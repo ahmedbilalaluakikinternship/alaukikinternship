@@ -1554,3 +1554,52 @@ Complete the primary application workflows using Django Forms, ModelForms, valid
 Implemented secure user access and role management using Django Authentication, Authorization, Groups, and Permissions.
 
 **Status:** Completed
+
+### Day 25: Advanced Django Features
+
+**Topics Covered:**
+- Function-Based Views and Class-Based Views
+- Generic Views
+- Custom Middleware
+- Django Signals and Their Trade-offs
+- Pagination and Filtering
+- File Uploads and Storage
+- Email Configuration
+- Custom Management Commands
+- Error Handling and Request Lifecycle
+
+**Practical Tasks:**
+- Implemented task filtering based on status, priority, and other relevant fields.
+- Added pagination to the task listing page.
+- Created a custom management command to generate sample data.
+- Implemented file upload functionality.
+- Configured Django development email output.
+- Tested filtering, pagination, file uploads, and email functionality.
+
+**Project Work:**
+Improved the maintainability of the Employee and Task Management System by adding supporting Django features, including task filtering, pagination, file uploads, email configuration, and custom management commands.
+
+### Day 26: Django REST Framework Fundamentals
+
+**Topics Covered:**
+- REST Architecture and API Principles
+- HTTP Methods and Status Codes
+- JSON Request and Response
+- Serializers and Validation
+- APIView and Generic Views
+- ViewSets and Routers
+- CRUD Endpoints
+- Error Responses and API Conventions
+
+**Practical Tasks:**
+- Installed and configured Django REST Framework.
+- Developed Employee REST APIs.
+- Developed Project REST APIs.
+- Developed Task REST APIs.
+- Implemented API input validation.
+- Handled JSON requests and responses.
+- Tested API endpoints using Postman.
+- Verified CRUD operations and HTTP status codes.
+
+**Project Work:**
+Extended the Employee and Task Management System by exposing its core functionality through REST APIs using Django REST Framework.
