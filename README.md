@@ -1603,3 +1603,28 @@ Improved the maintainability of the Employee and Task Management System by addin
 
 **Project Work:**
 Extended the Employee and Task Management System by exposing its core functionality through REST APIs using Django REST Framework.
+
+### Day 27: Advanced API Development
+
+**Topics Covered:**
+- API Authentication and Permissions
+- Token and Session Authentication
+- Filtering and Search
+- Ordering and Pagination
+- Throttling and Rate Limits
+- API Versioning
+- OpenAPI and Swagger Documentation
+- Idempotency Concepts
+- Webhook Fundamentals
+
+**Practical Tasks:**
+- Secured API endpoints using authentication and permissions.
+- Implemented search and filtering functionality.
+- Added ordering and pagination to API endpoints.
+- Configured API throttling and rate limits.
+- Generated API documentation using OpenAPI and Swagger.
+- Created a complete Postman collection.
+- Tested authentication, permissions, and API responses.
+
+**Project Work:**
+Completed the main API layer of the Employee and Task Management System by implementing API security, filtering, pagination, and documentation. Documented all API endpoints, including HTTP methods, request parameters, authentication requirements, and response formats.
