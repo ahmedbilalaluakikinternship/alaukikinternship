@@ -1628,3 +1628,34 @@ Extended the Employee and Task Management System by exposing its core functional
 
 **Project Work:**
 Completed the main API layer of the Employee and Task Management System by implementing API security, filtering, pagination, and documentation. Documented all API endpoints, including HTTP methods, request parameters, authentication requirements, and response formats.
+
+### Day 28 — Advanced ORM and Database Optimization
+
+**Objective:** Understand advanced Django ORM techniques and database optimization methods to improve application performance and database efficiency.
+
+**Topics Covered:**
+- `select_related()` and `prefetch_related()`
+- Q and F expressions
+- `annotate()` and `aggregate()`
+- Database transactions and atomic operations
+- Bulk operations
+- N+1 query problem
+- Database indexing and query optimization
+- Query profiling and EXPLAIN plans
+
+**Practical Tasks:**
+- Optimize dashboard database queries.
+- Identify and fix N+1 query problems.
+- Use ORM optimization techniques to reduce database queries.
+- Implement transactional task assignment.
+- Perform bulk database operations.
+- Compare query performance before and after optimization.
+
+**Project Work:**
+- Improve database efficiency in the Main Django Project.
+- Optimize dashboard queries.
+- Reduce unnecessary database operations.
+- Implement reliable transactions.
+- Analyze and improve query performance.
+
+**Technologies Used:** Python, Django, Django ORM, SQL, SQLite/MySQL, VS Code.
