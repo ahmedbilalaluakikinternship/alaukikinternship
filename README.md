@@ -1760,3 +1760,42 @@ Completed the main API layer of the Employee and Task Management System by imple
 - Ensure accurate reporting using backend database data.
 
 **Technologies Used:** Python, Django, Django REST Framework, Django ORM, JavaScript, HTML5, CSS3, Bootstrap, Chart.js, CSV, SQLite/MySQL, VS Code.
+
+### Day 32 — Advanced Architecture and Performance
+
+**Objective:** Understand advanced Django architecture and performance optimization techniques to improve the maintainability, organization, and efficiency of the existing Main Django Project.
+
+**Topics Covered:**
+- Separation of concerns
+- Service layer and reusable business logic
+- Caching and cache invalidation
+- Django cache framework
+- Async views and their limitations
+- WSGI versus ASGI
+- Database connection management
+- Profiling and bottleneck analysis
+- Architecture decision documentation
+
+**Practical Tasks:**
+- Refactor repeated business logic into reusable components.
+- Improve separation of concerns.
+- Implement caching where appropriate.
+- Understand cache invalidation.
+- Use Django's cache framework.
+- Profile a slow API endpoint.
+- Identify performance bottlenecks.
+- Review database connection management.
+- Document one architecture decision.
+
+**Project Work:**
+- Improve maintainability and performance in the existing Main Django Project.
+- Refactor repeated business logic.
+- Improve application structure and code reusability.
+- Add caching to suitable operations.
+- Optimize slow API endpoints.
+- Analyze database and application performance.
+- Document an architecture decision.
+- Improve overall application efficiency and maintainability.
+
+**Technologies Used:** Python, Django, Django REST Framework, Django Cache Framework, Django ORM, SQLite/MySQL, WSGI, ASGI, VS Code.
+
