@@ -1726,3 +1726,37 @@ Completed the main API layer of the Employee and Task Management System by imple
 - Verify server-side permissions and authentication security.
 
 **Technologies Used:** Python, Django, Django REST Framework, JavaScript, HTML5, CSS3, Bootstrap, Django Authentication, Session/Token Authentication, Cookies, CSRF Protection, VS Code.
+
+### Day 31 — Dashboards, Reports and Data Visualization
+
+**Objective:** Understand dashboard development, data visualization, reporting, and data export using Django. Enhance the existing dashboard with real employee, project, and task statistics.
+
+**Topics Covered:**
+- Dashboard design
+- Aggregated metrics
+- Search, filtering and pagination
+- Charts and visualization libraries
+- Date-range reports
+- CSV export
+- Report access permissions
+
+**Practical Tasks:**
+- Create employee and project summary cards.
+- Display dashboard statistics using live database data.
+- Build task status charts.
+- Implement search, filtering, and pagination.
+- Generate date-based reports.
+- Export reports to CSV.
+- Apply report access permissions.
+
+**Project Work:**
+- Complete the main reporting dashboard in the existing Main Django Project.
+- Display employee and project summary statistics.
+- Visualize task status using charts.
+- Generate date-range-based reports.
+- Implement report search, filtering, and pagination.
+- Add CSV export functionality.
+- Apply role-based report permissions.
+- Ensure accurate reporting using backend database data.
+
+**Technologies Used:** Python, Django, Django REST Framework, Django ORM, JavaScript, HTML5, CSS3, Bootstrap, Chart.js, CSV, SQLite/MySQL, VS Code.
