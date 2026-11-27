@@ -1659,3 +1659,70 @@ Completed the main API layer of the Employee and Task Management System by imple
 - Analyze and improve query performance.
 
 **Technologies Used:** Python, Django, Django ORM, SQL, SQLite/MySQL, VS Code.
+
+### Day 29 — Frontend and Backend Integration
+
+**Objective:** Understand and improve frontend and backend communication using Django APIs and JavaScript Fetch API. The existing Django project already has its frontend and backend connected. The focus is on enhancing the existing integration and working with live backend data.
+
+**Topics Covered:**
+- Fetch API with Django endpoints
+- JSON serialization and parsing
+- HTTP request headers
+- Loading and error states
+- CORS configuration
+- API base URLs and environment configuration
+- Handling validation errors
+
+**Practical Tasks:**
+- Work with the existing frontend and backend integration.
+- Connect frontend forms with Django API endpoints.
+- Display live employee and task data.
+- Implement Create, Update, and Delete operations through API calls.
+- Handle JSON requests and responses.
+- Implement loading states, error handling, and validation messages.
+- Test frontend and backend API communication.
+
+**Project Work:**
+- Improve the existing frontend and backend integration.
+- Replace static sample data with live backend data.
+- Display real employee and task records.
+- Implement database operations through API calls.
+- Improve frontend form submissions and API response handling.
+- Ensure smooth communication between the existing frontend and backend.
+
+**Technologies Used:** Python, Django, Django REST Framework, JavaScript, Fetch API, HTML5, CSS3, Bootstrap, JSON, SQLite/MySQL, VS Code.
+
+### Day 30 — Secure Authentication Integration
+
+**Objective:** Understand and implement secure end-to-end authentication between the existing frontend and Django backend. Focus on protecting restricted pages and API endpoints and managing authenticated users securely.
+
+**Topics Covered:**
+- Sessions versus token authentication
+- Cookies and secure cookie settings
+- CSRF protection
+- CORS versus CSRF
+- Token storage considerations
+- Logout and session expiry
+- Protected frontend routes
+- Permission checks on the server
+
+**Practical Tasks:**
+- Connect the existing frontend login form with backend authentication.
+- Implement and test the authentication flow.
+- Protect restricted frontend views and API endpoints.
+- Configure secure cookies and CSRF protection.
+- Handle logout and session expiry.
+- Implement frontend protected-route checks.
+- Add server-side authentication and permission checks.
+- Test unauthorized access and expired-session scenarios.
+
+**Project Work:**
+- Complete secure end-to-end authentication in the existing Main Django Project.
+- Integrate frontend login with Django backend authentication.
+- Manage authenticated sessions or tokens.
+- Protect restricted pages and API endpoints.
+- Implement secure logout functionality.
+- Handle expired sessions and unauthorized requests.
+- Verify server-side permissions and authentication security.
+
+**Technologies Used:** Python, Django, Django REST Framework, JavaScript, HTML5, CSS3, Bootstrap, Django Authentication, Session/Token Authentication, Cookies, CSRF Protection, VS Code.
